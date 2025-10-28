@@ -1,0 +1,14 @@
+a=5
+print(a)
+b=10
+print(b)
+c=a+b
+print(c)
+d=c*2
+print(d)
+e=d-3
+print(e)
+f=e/4
+print(f)
+g=f**2
+print(g)
