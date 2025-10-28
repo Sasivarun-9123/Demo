@@ -1,0 +1,33 @@
+
+What "git remote -v" Does
+
+The command:
+git remote -v
+
+shows all the remote connections linked to your local Git repository — along with their URLs.
+The -v stands for verbose, meaning it shows more detailed information (the fetch and push URLs
+)
+Link to GitHub:
+git remote add origin https://github.com/yourname/myproject.git
+Verify connection:
+git remote -v
+output:-
+origin  https://github.com/Sasivarun-9123/Demo.git (fetch)
+origin  https://github.com/Sasivarun-9123/Demo.git (push)
+PS C:\Users\sasiv\Desktop\git and Github> git checkout
+M       Demo
+M       Demo1/note.txt
+M       Example/Basic.txt
+Your branch is up to date with 'origin/main'.
+PS C:\Users\sasiv\Desktop\git and Github> git log
+commit 56d0d994619eaea20253020c86703424ac7a3464 (HEAD -> main, origin/main, origin/HEAD)
+Author: Sasivarun-9123 <sasivarun09012003@email.com>
+Date:   Tue Oct 28 19:26:02 2025 +0530
+
+    Python file
+
+commit 55df9ff8197a654d206b52ffec34c67a18fa1ed3
+Author: Sasivarun-9123 <sasivarun09012003@email.com>
+Date:   Tue Oct 28 19:02:06 2025 +0530
+
+:
